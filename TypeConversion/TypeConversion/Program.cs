@@ -10,9 +10,8 @@ namespace TypeConversion
     {
         static void Main(string[] args)
         {
-            byte b = 1;
-            int i = b;
-            Console.WriteLine(i);
+            int i = 1;
+            byte b = i;
         }
     }
 }
