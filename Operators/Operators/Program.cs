@@ -11,8 +11,8 @@ namespace Operators
         static void Main(string[] args)
         {
             var a = 10;
-            var b = 20;
-            Console.WriteLine(a + b);
+            var b = 3;
+            Console.WriteLine(a / b);
         }
     }
 }
