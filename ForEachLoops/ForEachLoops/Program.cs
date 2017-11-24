@@ -10,14 +10,12 @@ namespace ForEachLoops
     {
         static void Main(string[] args)
         {
-            var name = "Katie Nichols";
+            var numbers = new int[] {1, 2, 3, 4};
 
-            
-            foreach (var character in name)
+            foreach (var number in numbers)
             {
-                Console.WriteLine(character);
+                Console.WriteLine(number);
             }
-            
         }
     }
 }
