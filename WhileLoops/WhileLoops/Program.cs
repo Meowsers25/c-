@@ -16,10 +16,13 @@ namespace WhileLoops
                 Console.Write("Type your name: ");
                 var input = Console.ReadLine();
 
-                if (String.IsNullOrWhiteSpace(input))
-                    break;
+                if (!String.IsNullOrWhiteSpace(input))
+                {
+                    Console.WriteLine("@Echo: " + input);
+                    continue;
+                }
 
-                Console.WriteLine("@Echo: " + input);
+                break;
             }
         }
     }
