@@ -12,10 +12,12 @@ namespace ForEachLoops
         {
             var name = "Katie Nichols";
 
-            for (var i = 0; i < name.Length; i++)
+            
+            foreach (var character in name)
             {
-                Console.WriteLine(name[i]);
+                Console.WriteLine(character);
             }
+            
         }
     }
 }
