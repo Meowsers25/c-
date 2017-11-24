@@ -12,7 +12,7 @@ namespace LandscapeOrPortrait
         {
             Console.WriteLine("What is the width of your image?");
             var width = Console.ReadLine();
-            Console.WriteLine("What is the height of your image?");
+            Console.WriteLine("What is the height of your image??");
             var height = Console.ReadLine();
             var newWidth = Convert.ToInt32(width);
             var newHeight = Convert.ToInt32(height);
