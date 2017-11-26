@@ -26,7 +26,7 @@ namespace DemoString
 
             Console.WriteLine(fullName.Replace("Chris", "Christian")); 
 
-            if(String.IsNullOrEmpty(""))
+            if(String.IsNullOrEmpty(" "))
             {
                 Console.WriteLine("Invalid");
             }
